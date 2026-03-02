@@ -1,0 +1,104 @@
+ <!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Trang Web thứ 2 của tui NHM</title>
+<style>
+body{
+    font-family: Arial;
+    background:#e6edf3;
+    padding:20px;
+} 
+table{
+    width:1200px;
+    margin:auto;
+    border-collapse:collapse;
+    background:white;
+    table-layout:fixed;
+}
+col{
+    width:25%;
+}
+th, td{
+    border:2px solid #333;
+    padding:10px;
+    vertical-align:top;
+}
+.header{
+    padding:0;
+}
+
+.header img{
+    width:100%;
+    height:160px;       
+    object-fit:cover;
+    object-position:top;   
+    display:block;
+}
+.menu{
+    height:420px;
+    background:#eee;
+}
+.menu a{
+    display:block;
+    margin:8px 0;
+    text-decoration:none;
+    color:#2c5d7a;
+}
+.content{
+    height:420px;
+    text-align:center;
+}
+.content iframe{
+    width:100%;
+    height:300px;
+    border:none;
+    margin-top:10px;
+}
+.footer{
+    height:160px;
+    background:#e6edf3;
+    line-height:1.6;
+}
+</style>
+</head>
+<body>
+<table>
+<colgroup>
+    <col>
+    <col>
+    <col>
+    <col>
+</colgroup>
+<tr>
+    <th colspan="4" class="header">
+        <img src="banner1.png">
+    </th>
+</tr>
+<tr>
+    <td rowspan="2" class="menu">
+        <b>Menu</b>
+        <a href="page.html">Trang Page</a>
+        <a href="tet.html">Trang Tết</a>
+        
+        
+    </td>
+    <td colspan="3" rowspan="2" class="content">
+        <h3>Nội dung hiển thị</h3>
+        <iframe name="content"></iframe>
+    </td>
+</tr>
+<tr></tr>
+<tr>
+    <td colspan="4" class="footer">
+        <b>Tiểu sử bản thân</b><br>
+        Họ tên: Tăng Kiều Ngọc<br>
+        Ngành: Công Nghệ Thông Tin<br>
+        MSSV: 111101246<br>
+        Mã lớp: DA24TTC<br>
+        Email:ngoctang26082006@gmail.com
+    </td>
+</tr>
+</table>
+</body>
+</html>
